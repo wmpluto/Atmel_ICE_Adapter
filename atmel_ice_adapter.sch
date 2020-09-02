@@ -19,7 +19,7 @@ U 1 1 5F4DEBAA
 P 3100 2900
 F 0 "J2" H 3150 3217 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3150 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 3100 2900 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Horizontal" H 3100 2900 50  0001 C CNN
 F 3 "~" H 3100 2900 50  0001 C CNN
 	1    3100 2900
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F4DFD24
 P 1900 3000
 F 0 "J1" H 1950 3417 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 1950 3326 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 1900 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 1900 3000 50  0001 C CNN
 F 3 "~" H 1900 3000 50  0001 C CNN
 	1    1900 3000
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F4DFFE8
 P 6700 3200
 F 0 "J5" H 6750 3817 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 6750 3726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 6700 3200 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6700 3200 50  0001 C CNN
 F 3 "~" H 6700 3200 50  0001 C CNN
 	1    6700 3200
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5F4FE30B
 P 5500 3000
 F 0 "J4" H 5550 3417 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5550 3326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 5500 3000 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal" H 5500 3000 50  0001 C CNN
 F 3 "~" H 5500 3000 50  0001 C CNN
 	1    5500 3000
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 5F509D1E
 P 4300 2900
 F 0 "J3" H 4350 3217 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 4350 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4300 2900 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal" H 4300 2900 50  0001 C CNN
 F 3 "~" H 4300 2900 50  0001 C CNN
 	1    4300 2900
 	1    0    0    -1  
@@ -239,11 +239,29 @@ PIN9
 NoConn ~ 6500 3300
 NoConn ~ 6500 3600
 NoConn ~ 6500 3700
-NoConn ~ 7000 3700
-NoConn ~ 7000 3600
-NoConn ~ 7000 3300
-NoConn ~ 7000 3200
-NoConn ~ 7000 3000
-NoConn ~ 7000 2900
 NoConn ~ 7000 2800
+Wire Wire Line
+	7200 2900 7000 2900
+Text Label 7000 2900 0    50   ~ 0
+PIN3
+Wire Wire Line
+	7200 3000 7000 3000
+Text Label 7000 3000 0    50   ~ 0
+PIN3
+Wire Wire Line
+	7200 3200 7000 3200
+Text Label 7000 3200 0    50   ~ 0
+PIN9
+Wire Wire Line
+	7200 3300 7000 3300
+Text Label 7000 3300 0    50   ~ 0
+PIN9
+Wire Wire Line
+	7000 3600 7200 3600
+Text Label 7000 3600 0    50   ~ 0
+PIN5
+Wire Wire Line
+	7000 3700 7200 3700
+Text Label 7000 3700 0    50   ~ 0
+PIN5
 $EndSCHEMATC
