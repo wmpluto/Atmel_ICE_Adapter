@@ -19,7 +19,7 @@ U 1 1 5F4DEBAA
 P 3100 2900
 F 0 "J2" H 3150 3217 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3150 3126 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Horizontal" H 3100 2900 50  0001 C CNN
+F 2 "atmel_ice_adapter:PinSocket_2x03_P1.27mm_Horizontal" H 3100 2900 50  0001 C CNN
 F 3 "~" H 3100 2900 50  0001 C CNN
 	1    3100 2900
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F4DFFE8
 P 6700 3200
 F 0 "J5" H 6750 3817 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 6750 3726 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Horizontal" H 6700 3200 50  0001 C CNN
+F 2 "atmel_ice_adapter:PinSocket_2x10_P2.54mm_Horizontal" H 6700 3200 50  0001 C CNN
 F 3 "~" H 6700 3200 50  0001 C CNN
 	1    6700 3200
 	1    0    0    -1  
@@ -120,7 +120,7 @@ U 1 1 5F4FE30B
 P 5500 3000
 F 0 "J4" H 5550 3417 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 5550 3326 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal" H 5500 3000 50  0001 C CNN
+F 2 "atmel_ice_adapter:PinSocket_2x05_P2.54mm_Horizontal" H 5500 3000 50  0001 C CNN
 F 3 "~" H 5500 3000 50  0001 C CNN
 	1    5500 3000
 	1    0    0    -1  
@@ -183,7 +183,7 @@ U 1 1 5F509D1E
 P 4300 2900
 F 0 "J3" H 4350 3217 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 4350 3126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal" H 4300 2900 50  0001 C CNN
+F 2 "atmel_ice_adapter:PinSocket_2x03_P2.54mm_Horizontal" H 4300 2900 50  0001 C CNN
 F 3 "~" H 4300 2900 50  0001 C CNN
 	1    4300 2900
 	1    0    0    -1  
